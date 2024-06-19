@@ -2,11 +2,11 @@ import React from "react";
 
 import { Navigation } from "../routes/Nav";
 
-export function Contact() {
+export function Home() {
   return (
     <div>
       <Navigation />
-      <h2>Contact Page</h2>
+      <h1>Home page</h1>
     </div>
   );
 }

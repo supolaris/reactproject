@@ -1,7 +1,12 @@
+import React from "react";
+
+import { Navigation } from "../routes/Nav";
+
 export function About() {
   return (
     <div>
-      <h1>Hello world</h1>
+      <Navigation />
+      <h1>About page</h1>
     </div>
   );
 }
